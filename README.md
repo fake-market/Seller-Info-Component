@@ -1,4 +1,4 @@
-# seller-info-component
+# Seller Info Component
 
 My Front End Capstone project for HRLA22. This is a microservice which is meant to mimic Ebays product page. Each person on our team made their own microservice which are rendered altogether through a proxy server.
 
