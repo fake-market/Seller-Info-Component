@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import styles from "../styles/SellerInfoStyles.css";
-const dburl = "http://18.191.155.175:7770";
+// const dburl = "http://18.191.155.175:7770";
 class SellerInfo extends Component {
   constructor() {
     super();
@@ -17,21 +17,21 @@ class SellerInfo extends Component {
   }
   sellers() {
     axios
-      .get(`${dburl}/api/sellers`)
+      .get(/*${dburl}*/ `/api/sellers`)
       .then(res => this.setState({ sellers: res.data }))
       .then(() => console.log(this.state.sellers))
       .catch(err => console.log(`Error Finding Sellers ${err}`));
   }
   sellerRatings() {
     axios
-      .get(`${dburl}/api/sellerRatings/${this.state.sellers.id}`)
+      .get(/*${dburl}*/ `/api/sellerRatings/${this.state.sellers.id}`)
       .then(res => this.setState({ sellerRatings: res.data }))
       .then(() => console.log(`Current Ratings ${this.state.sellerRatings}`))
       .catch(err => `Error Finding Seller Ratings ${err}`);
   }
   like(id) {
     axios
-      .patch(`${dburl}/api/sellerLiked/${id}`)
+      .patch(/*${dburl}*/ `/api/sellerLiked/${id}`)
       .then(res => this.setState({ sellers: [res.data] }))
       .catch(err => console.log(`Error Liking Seller ${err}`));
   }
@@ -46,9 +46,11 @@ class SellerInfo extends Component {
                   {this.state.sellers[0].name}
                 </span>{" "}
                 <span>
-                  (<a className={styles.sellerRating}>
+                  (
+                  <a className={styles.sellerRating}>
                     {this.state.sellerRatings[0].id}
-                  </a>)
+                  </a>
+                  )
                 </span>
               </div>
               <div>{this.state.sellerRatings[2]}% Positive feedback</div>

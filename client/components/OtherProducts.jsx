@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import _ from "lodash";
 import styles from "../styles/OtherProducts.css";
-const dburl = "http://18.191.155.175:7770";
+// const dburl = "http://18.191.155.175:7770";
 class OtherProducts extends Component {
   constructor() {
     super();
@@ -19,18 +19,18 @@ class OtherProducts extends Component {
   }
   sellers() {
     axios
-      .get(`${dburl}/api/sellers`)
+      .get(/*${dburl}*/ `/api/sellers`)
       .then(res => this.setState({ sellers: res.data }))
       .then(() => console.log(`Current Seller Info ${this.state.sellers}`))
       .catch(err => console.log(`Error Finding Sellers ${err}`));
   }
   compile() {
     axios
-      .get(`${dburl}/api/products`)
+      .get(/*${dburl}*/ `/api/products`)
       .then(res => this.setState({ products: res.data }))
       .then(() => {
         axios
-          .get(`${dburl}/api/productImages/`)
+          .get(/*${dburl}*/ `/api/productImages/`)
           .then(res => this.setState({ images: res.data }))
           .then(() => {
             let copy = this.state.images.slice();
@@ -51,25 +51,26 @@ class OtherProducts extends Component {
       <div className={styles.otherProducts}>
         <div className={styles.more}>More from this seller</div>
         <div className={styles.products}>
-          {this.state.compile && this.state.compile.map(infoData => (
-            <div className={styles.panel}>
-              <div className={styles.top}>
-                <img className={styles.productimg} src={infoData.imageUrl} />
+          {this.state.compile &&
+            this.state.compile.map(infoData => (
+              <div className={styles.panel}>
+                <div className={styles.top}>
+                  <img className={styles.productimg} src={infoData.imageUrl} />
+                </div>
+                <div className={styles.middle} />
+                <div className={styles.bottom}>
+                  <div className={styles.indent} className={styles.item}>
+                    {infoData.productName}
+                  </div>
+                  <div className={styles.indent}>
+                    ${infoData.productPrice.toLocaleString()}
+                  </div>
+                  <div className={styles.indent} className={styles.shipping}>
+                    Free shipping
+                  </div>
+                </div>
               </div>
-              <div className={styles.middle}></div>
-              <div className={styles.bottom}>
-                <div className={styles.indent} className={styles.item}>
-                  {infoData.productName}
-                </div>
-                <div className={styles.indent}>
-                  ${infoData.productPrice.toLocaleString()}
-                </div>
-                <div className={styles.indent} className={styles.shipping}>
-                  Free shipping
-                </div>
-              </div>
-            </div>
-          ))}
+            ))}
         </div>
       </div>
     );

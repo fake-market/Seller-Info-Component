@@ -148,236 +148,203 @@ const sellerRatingSeed = [
 const imageSeed = [
   {
     imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/toothbrush1.jpeg",
+      "https://s3-us-west-1.amazonaws.com/colesfec/rexall_toothbrush_4.jpg",
     productId: 1
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/toothbrush2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/toothbrush2.jpg",
     productId: 1
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/potato1.jpeg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/potato1.jpg",
     productId: 2
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/potato2.jpeg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/potato2.jpg",
     productId: 2
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/turntable1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/turntable1.jpg",
     productId: 3
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/turntable2.jpeg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/turntable2.jpg",
     productId: 3
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/dog1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/dog1.jpg",
     productId: 4
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/dog2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/dog2.jpg",
     productId: 4
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/cat1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/cat1.jpg",
     productId: 5
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/cat2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/cat2.jpg",
     productId: 5
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/hamster1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/hamster1.jpg",
     productId: 6
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/hamster2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/hamster2.jpg",
     productId: 6
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/fork1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/fork1.jpg",
     productId: 7
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/fork2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/fork2.jpg",
     productId: 7
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/actionfigure1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/actionfigure1.jpg",
     productId: 8
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/actionfigure2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/actionfigure2.jpg",
     productId: 8
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/coffee1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/coffee1.jpg",
     productId: 9
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/coffee2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/coffee2.jpg",
     productId: 9
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/water1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/water1.jpg",
     productId: 10
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/water2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/water2.jpg",
     productId: 10
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/carbrush1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/carbrush1.jpg",
     productId: 11
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/carbrush2.jpeg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/carbrush2.jpg",
     productId: 11
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/squash1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/squash1.jpg",
     productId: 12
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/squash2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/squash2.jpg",
     productId: 12
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/record1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/record1.jpg",
     productId: 13
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/record2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/record2.jpg",
     productId: 13
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/pen1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/pen1.jpg",
     productId: 14
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/pen2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/pen2.jpg",
     productId: 14
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/computer1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/computer1.jpg",
     productId: 15
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/computer2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/computer2.jpg",
     productId: 15
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/chicken1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/chicken1.jpg",
     productId: 16
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/chicken2.jpeg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/chicken2.jpg",
     productId: 16
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/spoon1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/spoon1.jpg",
     productId: 17
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/spoon2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/spoon2.jpg",
     productId: 17
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/toyplane1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/toyplane1.jpg",
     productId: 18
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/toyplane2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/toyplane2.jpg",
     productId: 18
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/coffeemaker1.jpeg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/coffeemaker1.jpg",
     productId: 19
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/coffeemaker2.jpeg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/coffeemaker2.jpg",
     productId: 19
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/orangejuice1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/orangejuice1.JPG",
     productId: 20
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/orangejuice2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/orangejuice2.jpg",
     productId: 20
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/peppers1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/peppers1.jpg",
     productId: 21
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/peppers2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/peppers2.jpg",
     productId: 21
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/milk1.jpeg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/milk1.jpg",
     productId: 22
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/milk2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/milk2.jpg",
     productId: 22
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/ice1.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/ice1.jpg",
     productId: 23
   },
   {
-    imageUrl: "https://s3-us-west-1.amazonaws.com/frontend-capstone/ice2.jpeg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/ice2.jpg",
     productId: 23
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/thecolorred1.png",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/thecolorred1.png",
     productId: 24
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/thecolorred2.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/thecolorred2.png",
     productId: 24
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/thecolorred3.JPG",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/thecolorred3.jpg",
     productId: 24
   },
   {
-    imageUrl:
-      "https://s3-us-west-1.amazonaws.com/frontend-capstone/thecolorred4.jpg",
+    imageUrl: "https://s3-us-west-1.amazonaws.com/colesfec/thecolorred4.jpg",
     productId: 24
   }
 ];

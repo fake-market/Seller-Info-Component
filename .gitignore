@@ -1,7 +1,7 @@
 node_modules
 static/bundle.js
-assests-s3
+assets/
 Gruntfile.js
-coverage
+coverage/
 credentials.json
 randomPair.pem

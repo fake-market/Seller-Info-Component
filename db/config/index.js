@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
+
 const db = new Sequelize("frontend_capstone", "colemichaels", "", {
-  host: "db",
   dialect: "postgresql"
 });
 
