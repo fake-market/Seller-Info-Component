@@ -5,3 +5,4 @@ Gruntfile.js
 coverage/
 credentials.json
 randomPair.pem
+.DS_Store
