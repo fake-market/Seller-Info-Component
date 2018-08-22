@@ -8,7 +8,7 @@ Images will no longer load as they were hosted within AWS S3 buckets which have 
 
 To host service for deployment uncomment and change dburl in client/components, change host name within db/config. Then host and seed a PSQL instance and seed with dummy data.
 
-My Proxy Server: https://github.com/cmichaelsd/Cole-Proxy
+My Proxy Server: https://github.com/cmichaelsd/Coles-Frontend-Proxy
 
 ### Technologies Used:
 
